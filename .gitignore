@@ -1,0 +1,12 @@
+#extencao de arquivos
+*.csv
+
+#ambiente virtual
+.venv
+
+.DS_Store
+
+#terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfstate*
