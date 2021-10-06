@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "dl" {
 
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "igti-ney-streaming-bucket"
+  bucket = "datalake-geovani-igti-edc-tf-v2"
   acl    = "private"
 
   tags = {
