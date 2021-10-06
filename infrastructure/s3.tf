@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "dl" {
-  bucket = "datalake-geovani-igti-edc-tf-v2"
+  bucket = "datalake-geovani-igti-edc-tf-v3"
   acl    = "private"
 
   tags = {
@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "dl" {
 
 
 resource "aws_s3_bucket" "stream" {
-  bucket = "datalake-geovani-igti-edc-tf-v2"
+  bucket = "datalake-geovani-igti-edc-tf-v4"
   acl    = "private"
 
   tags = {
